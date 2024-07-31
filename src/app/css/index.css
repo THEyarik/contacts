@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app-container {
+    @apply w-full mx-auto max-w-[1280px] min-w-[400px] px-[10px]
+}
+.input{
+    @apply w-full py-[14px] px-[12px] border-[1px] rounded-[8px] border-[#AAAAAA] h-[48px] bg-transparent
+}
